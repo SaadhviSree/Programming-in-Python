@@ -6,7 +6,6 @@ ALGORITHM :
 1) Start
 2) Input the mark from the user.
 3) Assign a variable grade to empty string.
-9 | P a g e
 4) Check is mark is between 0 to 100.
 5) If mark greater than or equal to 91, grade is O.
 6) If mark greater than or equal to 81, grade is A+.
