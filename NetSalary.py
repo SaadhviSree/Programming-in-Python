@@ -20,3 +20,6 @@ PFP=float(input("Enter the provident fund percentage : "))
 PFsal=bsal*PFP/100
 TAP=float(input("Enter the travelling allowance percentage : "))
 TAsal=TAP*bsal/100
+Gross=bsal+DAsal+HRAsal+TAsal
+Net=Gross-PFsal
+print("\nThe Gross salary is",Gross,"and the Net salary is",Net)
